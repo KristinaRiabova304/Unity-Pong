@@ -1,0 +1,12 @@
+{
+  "name": "unity-lab",
+  "engine": "unity",
+  "launch": {
+    "cmd": "/Applications/Unity/Hub/Editor/6000.6.2f1/Unity.app/Contents/MacOS/Unity",
+    "args": ["-projectPath", ".", "-executeMethod", "UnityLab.EditorTools.MainMenuBuilder.RunMainMenu"]
+  },
+  "log": {
+    "paths": ["${HOME}/Library/Logs/Unity/Editor.log", "Logs/Editor.log"]
+  },
+  "sourceRoots": ["Assets"]
+}
